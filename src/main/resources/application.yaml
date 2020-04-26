@@ -1,0 +1,11 @@
+server:
+  servlet:
+    context-path: /
+
+security:
+  oauth2:
+    client:
+      client-id: client
+      client-secret: secret
+      access-token-validity-seconds: 3600
+      refresh-token-validity-seconds: 240000
